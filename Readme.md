@@ -22,9 +22,9 @@ Directory Structure:
 --------------------
 - TensorFlow_Models/       # Saved Keras and TFLite models
 - TensorFlow_Codes/        # Training and evaluation notebooks and python files
-- Pytorch_model            # Pytorch models
-- Arduino_deployment       # Deployment materials for Arduino IDE
-- Impulse_Deployment       # Edge Impulse Deployment
+- Pytorch_model/           # Pytorch models
+- Arduino_deployment/      # Deployment materials for Arduino IDE
+- Impulse_Deployment/      # Edge Impulse Deployment
 - Readme.md                # Documentation of the project
 
 Impulse_Deployment/
@@ -85,18 +85,20 @@ Results:
 --------
 Best model performance:
 - Accuracy: TinyCnn - 93% (on validation set)
+          : MobileNet V2 0.35 - ~85% through Edge Impulse
 - Deployment model size: MobileNet V2 0.35 - ~40 KB (via Edge Impulse)
                        : ResNet8 - ~50kB (quantized tflite model) 
 - Inference time: ~100 ms on Nicla Vision
 
 Credits:
 --------
-Developed as part of the EDGE AI course project.
+Developed as part of the EDGE AI course project in IISc.
 
-Author- Kumar Aman, M.Tech, DM, IISc
+Contributors- Kumar Aman, M.Tech, DM, IISc
       - Shreya U, M.Tech, CST, IISc
       - Harinath S, M.Tech, CST, IISc
       - Sher Singh Baghel, M.Tech, CST, IISc
 
-Course instructor - Arjunan Pandarswamy
+Course instructor - Pandarasamy Arjunan, Assistant Professor, RBCCPS
+                  - https://github.com/samy101
 
